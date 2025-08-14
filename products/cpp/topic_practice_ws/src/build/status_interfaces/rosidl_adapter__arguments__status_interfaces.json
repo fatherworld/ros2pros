@@ -1,0 +1,6 @@
+{
+  "package_name": "status_interfaces",
+  "non_idl_tuples": [
+    "/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_interfaces:msg/SystemStatus.msg"
+  ]
+}

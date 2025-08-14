@@ -1,0 +1,6 @@
+/bin/ld: CMakeFiles/WriteNode.dir/src/WriteNode.cpp.o: in function `void __gnu_cxx::new_allocator<PersonNode>::construct<PersonNode, char const (&) [7], int>(PersonNode*, char const (&) [7], int&&)':
+WriteNode.cpp:(.text._ZN9__gnu_cxx13new_allocatorI10PersonNodeE9constructIS1_JRA7_KciEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI10PersonNodeE9constructIS1_JRA7_KciEEEvPT_DpOT0_]+0x91): undefined reference to `PersonNode::PersonNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/WriteNode.dir/build.make:151：WriteNode] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/WriteNode.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

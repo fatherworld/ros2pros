@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-609a54ff8f0f694f9298.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "test_cpp_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "WriteNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WriteNode-2791ff2306364a9f26a3.json",
+					"name" : "WriteNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bayes_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bayes_test-1602835395180c8a1cc3.json",
+					"name" : "bayes_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mainPerson::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mainPerson-c3519272bd09b1a31a11.json",
+					"name" : "mainPerson",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_cpp_demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_cpp_demo_uninstall-a77bcade094c869cd6f7.json",
+					"name" : "test_cpp_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-994f3ac9fc03492b1dd0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/build/test_cpp_demo",
+		"source" : "/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

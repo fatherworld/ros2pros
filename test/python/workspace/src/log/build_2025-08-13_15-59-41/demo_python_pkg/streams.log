@@ -1,0 +1,46 @@
+[0.821s] Invoking command in '/home/bayes/hssw/others/ros2project/test/python/workspace/src/demo_python_pkg1': PYTHONPATH=/home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/build install --record /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[1.019s] running egg_info
+[1.020s] creating ../build/demo_python_pkg/demo_python_pkg.egg-info
+[1.020s] writing ../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[1.021s] writing dependency_links to ../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[1.021s] writing entry points to ../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[1.021s] writing requirements to ../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[1.021s] writing top-level names to ../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[1.021s] writing manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[1.022s] reading manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[1.022s] adding license file 'LICENSE'
+[1.022s] writing manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[1.023s] running build
+[1.023s] running build_py
+[1.023s] creating /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/build
+[1.023s] creating /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/build/lib
+[1.024s] creating /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/build/lib/demo_python_pkg1
+[1.024s] copying demo_python_pkg1/writer_node.py -> /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/build/lib/demo_python_pkg1
+[1.024s] copying demo_python_pkg1/person_node.py -> /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/build/lib/demo_python_pkg1
+[1.024s] copying demo_python_pkg1/learnthread.py -> /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/build/lib/demo_python_pkg1
+[1.024s] copying demo_python_pkg1/__init__.py -> /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/build/lib/demo_python_pkg1
+[1.024s] running install
+[1.024s] running install_lib
+[1.025s] creating /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg1
+[1.025s] copying /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/build/lib/demo_python_pkg1/writer_node.py -> /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg1
+[1.025s] copying /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/build/lib/demo_python_pkg1/person_node.py -> /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg1
+[1.025s] copying /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/build/lib/demo_python_pkg1/learnthread.py -> /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg1
+[1.025s] copying /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/build/lib/demo_python_pkg1/__init__.py -> /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg1
+[1.026s] byte-compiling /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg1/writer_node.py to writer_node.cpython-310.pyc
+[1.026s] byte-compiling /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg1/person_node.py to person_node.cpython-310.pyc
+[1.027s] byte-compiling /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg1/learnthread.py to learnthread.cpython-310.pyc
+[1.027s] byte-compiling /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg1/__init__.py to __init__.cpython-310.pyc
+[1.027s] running install_data
+[1.028s] creating /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/share/ament_index
+[1.028s] creating /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/share/ament_index/resource_index
+[1.028s] creating /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/share/ament_index/resource_index/packages
+[1.028s] copying resource/demo_python_pkg -> /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/share/ament_index/resource_index/packages
+[1.028s] copying package.xml -> /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/share/demo_python_pkg
+[1.028s] running install_egg_info
+[1.029s] Copying ../build/demo_python_pkg/demo_python_pkg.egg-info to /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[1.030s] running install_scripts
+[1.051s] Installing learnthread1 script to /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/demo_python_pkg
+[1.051s] Installing person_node1 script to /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/demo_python_pkg
+[1.051s] Installing write_node1 script to /home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/demo_python_pkg
+[1.051s] writing list of installed files to '/home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/install.log'
+[1.071s] Invoked command in '/home/bayes/hssw/others/ros2project/test/python/workspace/src/demo_python_pkg1' returned '0': PYTHONPATH=/home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/build install --record /home/bayes/hssw/others/ros2project/test/python/workspace/src/build/demo_python_pkg/install.log --single-version-externally-managed install_data

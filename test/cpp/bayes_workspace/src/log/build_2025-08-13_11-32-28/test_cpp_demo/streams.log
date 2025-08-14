@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/test_cpp_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_python_pkg:/home/bayes/hssw/others/ros2project/test/python/workspace/install/demo_python_pkg:/opt/ros/humble /bin/cmake --build /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/test_cpp_demo -- -j24 -l24
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target WriteNode[0m
+[0.057s] [ 33%] Built target bayes_test
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/PersonNode.dir/src/PersonNode.cpp.o[0m
+[0.066s] [ 66%] [32mBuilding CXX object CMakeFiles/WriteNode.dir/src/WriteNode.cpp.o[0m
+[1.829s] [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/WriteNode.cpp:[m[K In member function ‘[01m[Kvirtual void WriteNode::eatfood(std::string)[m[K’:
+[1.829s] [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/WriteNode.cpp:10:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfoodname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.829s]    10 |     virtual void eatfood([01;35m[Kstring foodname[m[K)
+[1.829s]       |                          [01;35m[K~~~~~~~^~~~~~~~[m[K
+[2.179s] [ 83%] [32m[1mLinking CXX executable WriteNode[0m
+[2.213s] [100%] [32m[1mLinking CXX executable PersonNode[0m
+[2.248s] /bin/ld: CMakeFiles/WriteNode.dir/src/WriteNode.cpp.o: in function `WriteNode::WriteNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)':
+[2.248s] WriteNode.cpp:(.text._ZN9WriteNodeC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi[_ZN9WriteNodeC5ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi]+0x4c): undefined reference to `PersonNode::PersonNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+[2.248s] /bin/ld: CMakeFiles/WriteNode.dir/src/WriteNode.cpp.o: in function `WriteNode::~WriteNode()':
+[2.248s] WriteNode.cpp:(.text._ZN9WriteNodeD2Ev[_ZN9WriteNodeD5Ev]+0x26): undefined reference to `PersonNode::~PersonNode()'
+[2.248s] /bin/ld: CMakeFiles/WriteNode.dir/src/WriteNode.cpp.o:(.data.rel.ro._ZTI9WriteNode[_ZTI9WriteNode]+0x10): undefined reference to `typeinfo for PersonNode'
+[2.253s] collect2: error: ld returned 1 exit status
+[2.254s] gmake[2]: *** [CMakeFiles/WriteNode.dir/build.make:151：WriteNode] 错误 1
+[2.255s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/WriteNode.dir/all] 错误 2
+[2.255s] gmake[1]: *** 正在等待未完成的任务....
+[2.296s] [100%] Built target PersonNode
+[2.296s] gmake: *** [Makefile:146：all] 错误 2
+[2.299s] Invoked command in '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/test_cpp_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_python_pkg:/home/bayes/hssw/others/ros2project/test/python/workspace/install/demo_python_pkg:/opt/ros/humble /bin/cmake --build /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/test_cpp_demo -- -j24 -l24

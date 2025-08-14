@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_python_pkg:/opt/ros/humble /bin/cmake --build /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/build/demo_cpp_topic -- -j24 -l24
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.061s] [ 50%] Built target turtle_circle
+[0.080s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[6.047s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[6.358s] [100%] Built target turtle_control
+[6.367s] Invoked command in '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_python_pkg:/opt/ros/humble /bin/cmake --build /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/build/demo_cpp_topic -- -j24 -l24
+[6.369s] Invoking command in '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_python_pkg:/opt/ros/humble /bin/cmake --install /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/build/demo_cpp_topic
+[6.375s] -- Install configuration: ""
+[6.376s] -- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[6.376s] -- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[6.376s] -- Installing: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[6.376s] -- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[6.377s] -- Installing: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[6.377s] -- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[6.377s] -- Installing: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[6.377s] -- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[6.377s] -- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[6.377s] -- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[6.378s] -- Installing: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[6.378s] -- Installing: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[6.378s] -- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[6.378s] -- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[6.379s] -- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[6.379s] -- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[6.381s] Invoked command in '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_python_pkg:/opt/ros/humble /bin/cmake --install /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/build/demo_cpp_topic

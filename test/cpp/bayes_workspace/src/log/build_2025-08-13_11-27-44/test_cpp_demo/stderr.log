@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:19 (target_include_directories):
+  Cannot specify include directories for target "WriteNode" which is not
+  built by this project.
+
+[0m
+[0m/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo[0m
+gmake: *** [Makefile:349：cmake_check_build_system] 错误 1

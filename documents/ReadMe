@@ -1,0 +1,11 @@
+订阅和发布----话题通信探索
+在机器人世界中，为了能够感知环境信息和执行动作，往往装载了很多传感器和执行器，常见的传感器有摄像头、雷达和惯性测量单元等，常见的执行器有各种类型的地盘，
+机械臂关节电动机和电动夹爪等。为了方便各类传感器和执行器数据在机器人系统中传递，ROS2也引入了一套订阅发布机制，即话题通信。
+话题名称对应一个接口名称，查看话题详情ros2 topic info topic_name -v
+查看接口详情：ros2 interface show interface_name
+
+built_interfaces 是ROS2中已经有的一个消息接口功能包，可以使用其时间接口Time,表示记录消息的时间。
+rosidl_default_generators用于将自定义的消息文件转换为c++,python源码的模块
+在ros2中，话题消息定义文件必须放置于功能包的msg目录下，文件名必须以大写字母开头且只能由大，小写字母和数字组成
+ROR2消息接口支持的9种数据类型
+bool,char,byte,float32,float64,int8,uint8,int16,uint16,int32,uint32,int64,uint64,string

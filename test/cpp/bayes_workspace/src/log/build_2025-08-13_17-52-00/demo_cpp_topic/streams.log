@@ -1,0 +1,25 @@
+[0.019s] Invoking command in '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_topic:/home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/install/demo_python_pkg:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_python_pkg:/home/bayes/hssw/others/ros2project/test/python/workspace/install/demo_python_pkg:/opt/ros/humble /bin/cmake /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/install/demo_cpp_topic
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.159s] -- The CXX compiler identification is GNU 11.4.0
+[0.166s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.233s] -- Check for working C compiler: /bin/cc - skipped
+[0.234s] -- Detecting C compile features
+[0.234s] -- Detecting C compile features - done
+[0.237s] -- Detecting CXX compiler ABI info
+[0.303s] -- Detecting CXX compiler ABI info - done
+[0.307s] -- Check for working CXX compiler: /bin/c++ - skipped
+[0.308s] -- Detecting CXX compile features
+[0.308s] -- Detecting CXX compile features - done
+[0.310s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.436s] -- Found Python3: /bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.515s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.515s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.515s]   before
+[0.516s] Call Stack (most recent call first):
+[0.516s]   CMakeLists.txt:14 (ament_target_dependencies)
+[0.516s] 
+[0.516s] [0m
+[0.516s] -- Configuring incomplete, errors occurred!
+[0.516s] See also "/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/demo_cpp_topic/CMakeFiles/CMakeOutput.log".
+[0.519s] Invoked command in '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/demo_cpp_topic' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_topic:/home/bayes/hssw/others/ros2project/test/python/workspace/src/install/demo_python_pkg:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/install/demo_python_pkg:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/demo_python_pkg:/home/bayes/hssw/others/ros2project/test/python/workspace/install/demo_python_pkg:/opt/ros/humble /bin/cmake /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/install/demo_cpp_topic

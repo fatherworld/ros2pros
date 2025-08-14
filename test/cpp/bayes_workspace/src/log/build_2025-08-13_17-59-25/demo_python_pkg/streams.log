@@ -1,0 +1,22 @@
+[0.534s] Invoking command in '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/demo_python_pkg': CMAKE_PREFIX_PATH=/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/install/test_cpp_demo:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/install/demo_cpp_topic:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo PYTHONPATH=/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/demo_python_pkg/build install --record /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[0.728s] running egg_info
+[0.729s] writing ../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.729s] writing dependency_links to ../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.729s] writing entry points to ../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.729s] writing requirements to ../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.729s] writing top-level names to ../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.731s] reading manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.731s] adding license file 'LICENSE'
+[0.731s] writing manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.732s] running build
+[0.732s] running build_py
+[0.732s] running install
+[0.732s] running install_lib
+[0.733s] running install_data
+[0.733s] running install_egg_info
+[0.734s] removing '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.735s] Copying ../build/demo_python_pkg/demo_python_pkg.egg-info to /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.735s] running install_scripts
+[0.751s] Installing python_node script to /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/install/demo_python_pkg/lib/demo_python_pkg
+[0.752s] writing list of installed files to '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/demo_python_pkg/install.log'
+[0.767s] Invoked command in '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/demo_python_pkg' returned '0': CMAKE_PREFIX_PATH=/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/install/test_cpp_demo:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/install/demo_cpp_topic:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo PYTHONPATH=/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/demo_python_pkg/build install --record /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/build/demo_python_pkg/install.log --single-version-externally-managed install_data

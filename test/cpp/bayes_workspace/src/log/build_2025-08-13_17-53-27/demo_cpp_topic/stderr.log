@@ -1,0 +1,35 @@
+[01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/demo_cpp_topic/src/turtle_circle.cpp:15:72:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   15 |         publisher_ = this->create_publisher<geometry_msgs::msg::Twist>([01;35m[K'/turtle1/cmd_vel'[m[K,10);
+      |                                                                        [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/demo_cpp_topic/src/turtle_circle.cpp:[m[K In constructor ‘[01m[KTurtleCircle::TurtleCircle(std::string)[m[K’:
+[01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/demo_cpp_topic/src/turtle_circle.cpp:15:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtleCircle::create_publisher<geometry_msgs::msg::Twist>(int, int)[m[K’
+   15 |         publisher_ = [01;31m[Kthis->create_publisher<geometry_msgs::msg::Twist>('/turtle1/cmd_vel',10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/demo_cpp_topic/src/turtle_circle.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/demo_cpp_topic/src/turtle_circle.cpp:15:72:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K1601594732[m[K’ (type ‘[01m[Kint[m[K’) to type ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   15 |         publisher_ = this->create_publisher<geometry_msgs::msg::Twist>([01;36m[K'/turtle1/cmd_vel'[m[K,10);
+      |                                                                        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/demo_cpp_topic/src/turtle_circle.cpp:18:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtleCircle::create_wall_timer(std::chrono::milliseconds, std::_Bind_helper<false, void (TurtleCircle::*)(), TurtleCircle*>::type, int)[m[K’
+   18 |         timer_ = [01;31m[Kthis->create_wall_timer(1000ms,std::bind(&TurtleCircle::callback,this),10)[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/demo_cpp_topic/src/turtle_circle.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  238 |   [01;36m[Kcreate_wall_timer[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/demo_cpp_topic/src/turtle_circle.cpp:18:89:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K10[m[K’ (type ‘[01m[Kint[m[K’) to type ‘[01m[Krclcpp::CallbackGroup::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::CallbackGroup>[m[K’}
+   18 |         timer_ = this->create_wall_timer(1000ms,std::bind(&TurtleCircle::callback,this),[01;36m[K10[m[K);
+      |                                                                                         [01;36m[K^~[m[K
+gmake[2]: *** [CMakeFiles/turtle_circle.dir/build.make:76：CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/turtle_circle.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

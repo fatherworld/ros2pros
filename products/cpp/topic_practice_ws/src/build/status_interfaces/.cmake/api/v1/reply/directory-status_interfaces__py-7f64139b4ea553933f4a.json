@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "status_interfaces__py",
+		"source" : "/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_interfaces/status_interfaces__py"
+	}
+}

@@ -1,0 +1,22 @@
+[0.599s] Invoking command in '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_publisher': CMAKE_PREFIX_PATH=/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_interfaces:/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display PYTHONPATH=/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/status_publisher build --build-base /home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_publisher/build install --record /home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_publisher/install.log --single-version-externally-managed install_data
+[0.810s] running egg_info
+[0.811s] writing ../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[0.811s] writing dependency_links to ../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[0.812s] writing entry points to ../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[0.812s] writing requirements to ../build/status_publisher/status_publisher.egg-info/requires.txt
+[0.812s] writing top-level names to ../build/status_publisher/status_publisher.egg-info/top_level.txt
+[0.814s] reading manifest file '../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.815s] adding license file 'LICENSE'
+[0.816s] writing manifest file '../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.816s] running build
+[0.816s] running build_py
+[0.817s] running install
+[0.817s] running install_lib
+[0.818s] running install_data
+[0.818s] running install_egg_info
+[0.820s] removing '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[0.820s] Copying ../build/status_publisher/status_publisher.egg-info to /home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[0.821s] running install_scripts
+[0.838s] Installing status_publisher script to /home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_publisher/lib/status_publisher
+[0.838s] writing list of installed files to '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_publisher/install.log'
+[0.859s] Invoked command in '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_publisher' returned '0': CMAKE_PREFIX_PATH=/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_interfaces:/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display PYTHONPATH=/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/status_publisher build --build-base /home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_publisher/build install --record /home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_publisher/install.log --single-version-externally-managed install_data

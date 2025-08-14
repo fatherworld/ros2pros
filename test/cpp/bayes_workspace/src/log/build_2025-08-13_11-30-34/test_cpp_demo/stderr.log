@@ -1,0 +1,15 @@
+[01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/WriteNode.cpp:[m[K In member function ‘[01m[Kvirtual void WriteNode::eatfood(std::string)[m[K’:
+[01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/WriteNode.cpp:10:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfoodname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   10 |     virtual void eatfood([01;35m[Kstring foodname[m[K)
+      |                          [01;35m[K~~~~~~~^~~~~~~~[m[K
+/bin/ld: CMakeFiles/WriteNode.dir/src/WriteNode.cpp.o: warning: relocation against `_ZTV10PersonNode' in read-only section `.text._ZN10PersonNodeD2Ev[_ZN10PersonNodeD5Ev]'
+/bin/ld: CMakeFiles/WriteNode.dir/src/WriteNode.cpp.o: in function `PersonNode::~PersonNode()':
+WriteNode.cpp:(.text._ZN10PersonNodeD2Ev[_ZN10PersonNodeD5Ev]+0x13): undefined reference to `vtable for PersonNode'
+/bin/ld: CMakeFiles/WriteNode.dir/src/WriteNode.cpp.o: in function `WriteNode::WriteNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)':
+WriteNode.cpp:(.text._ZN9WriteNodeC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi[_ZN9WriteNodeC5ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi]+0x4c): undefined reference to `PersonNode::PersonNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/bin/ld: CMakeFiles/WriteNode.dir/src/WriteNode.cpp.o:(.data.rel.ro._ZTI9WriteNode[_ZTI9WriteNode]+0x10): undefined reference to `typeinfo for PersonNode'
+/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/WriteNode.dir/build.make:151：WriteNode] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/WriteNode.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,22 @@
+[ 37%] Built target mainPerson
+[ 62%] Built target bayes_test
+[100%] Built target WriteNode
+-- Install configuration: ""
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/lib/test_cpp_demo/bayes_test
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/lib/test_cpp_demo/WriteNode
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/lib/test_cpp_demo/mainPerson
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/ament_index/resource_index/package_run_dependencies/test_cpp_demo
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/ament_index/resource_index/parent_prefix_path/test_cpp_demo
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/test_cpp_demo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/test_cpp_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/test_cpp_demo/environment/path.sh
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/test_cpp_demo/environment/path.dsv
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/test_cpp_demo/local_setup.bash
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/test_cpp_demo/local_setup.sh
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/test_cpp_demo/local_setup.zsh
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/test_cpp_demo/local_setup.dsv
+-- Installing: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/test_cpp_demo/package.dsv
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/ament_index/resource_index/packages/test_cpp_demo
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/test_cpp_demo/cmake/test_cpp_demoConfig.cmake
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/test_cpp_demo/cmake/test_cpp_demoConfig-version.cmake
+-- Up-to-date: /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/install/test_cpp_demo/share/test_cpp_demo/package.xml

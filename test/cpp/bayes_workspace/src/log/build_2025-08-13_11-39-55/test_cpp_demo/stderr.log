@@ -1,0 +1,6 @@
+[0m/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo[0m
+[31mCMake Error at CMakeLists.txt:27 (install):
+  install TARGETS given target "PersonNode" which does not exist.
+
+[0m
+gmake: *** [Makefile:352：cmake_check_build_system] 错误 1

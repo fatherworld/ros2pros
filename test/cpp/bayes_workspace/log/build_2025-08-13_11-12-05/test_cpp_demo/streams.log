@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/build/test_cpp_demo': CMAKE_PREFIX_PATH=/home/bayes/hssw/others/ros2project/test/python/workspace/install/demo_python_pkg:/opt/ros/humble /bin/cmake --build /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/build/test_cpp_demo -- -j24 -l24
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target PersonNode[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target WriteNode[0m
+[0.061s] [ 33%] Built target bayes_test
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/PersonNode.dir/src/PersonNode.cpp.o[0m
+[0.084s] [ 66%] [32mBuilding CXX object CMakeFiles/WriteNode.dir/src/WriteNode.cpp.o[0m
+[1.816s] [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/WriteNode.cpp:[m[K In member function ‘[01m[Kvirtual void WriteNode::eat(std::string)[m[K’:
+[1.816s] [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/WriteNode.cpp:10:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfoodname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.816s]    10 |     virtual void eat([01;35m[Kstring foodname[m[K)
+[1.816s]       |                      [01;35m[K~~~~~~~^~~~~~~~[m[K
+[1.818s] [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/WriteNode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.818s] [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/WriteNode.cpp:19:50:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::shared_ptr<PersonNode>[m[K’ to non-scalar type ‘[01m[KWriteNode[m[K’ requested
+[1.818s]    19 |     WriteNode node = [01;31m[Kstd::make_shared<PersonNode>("bayes0",30)[m[K;
+[1.818s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.818s] [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/WriteNode.cpp:20:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KWriteNode[m[K’
+[1.818s]    20 |     node[01;31m[K->[m[Keat("尖椒肉丝");
+[1.818s]       |         [01;31m[K^~[m[K
+[1.818s] [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/WriteNode.cpp:21:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(WriteNode&)[m[K’
+[1.818s]    21 |     [01;31m[Krclcpp::spin(node)[m[K;
+[1.819s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~[m[K
+[1.819s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.819s]                  from [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/include/test_cpp_demo/PersonNode.h:1[m[K,
+[1.819s]                  from [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/WriteNode.cpp:1[m[K:
+[1.819s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[1.819s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[1.819s]       | [01;36m[K^~~~[m[K
+[1.819s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KWriteNode[m[K’ to ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[1.819s]    45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[1.819s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.819s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[1.819s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[1.819s]       | [01;36m[K^~~~[m[K
+[1.819s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KWriteNode[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+[1.819s]    49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[1.819s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.828s] [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/PersonNode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.828s] [01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/PersonNode.cpp:19:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class PersonNode[m[K’ {aka ‘[01m[Kclass PersonNode[m[K’} has no member named ‘[01m[Keat[m[K’
+[1.828s]    19 |     node->[01;31m[Keat[m[K("尖椒肉丝");
+[1.828s]       |           [01;31m[K^~~[m[K
+[2.104s] gmake[2]: *** [CMakeFiles/WriteNode.dir/build.make:76：CMakeFiles/WriteNode.dir/src/WriteNode.cpp.o] 错误 1
+[2.104s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/WriteNode.dir/all] 错误 2
+[2.104s] gmake[1]: *** 正在等待未完成的任务....
+[2.129s] gmake[2]: *** [CMakeFiles/PersonNode.dir/build.make:76：CMakeFiles/PersonNode.dir/src/PersonNode.cpp.o] 错误 1
+[2.129s] gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/PersonNode.dir/all] 错误 2
+[2.129s] gmake: *** [Makefile:146：all] 错误 2
+[2.133s] Invoked command in '/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/build/test_cpp_demo' returned '2': CMAKE_PREFIX_PATH=/home/bayes/hssw/others/ros2project/test/python/workspace/install/demo_python_pkg:/opt/ros/humble /bin/cmake --build /home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/build/test_cpp_demo -- -j24 -l24

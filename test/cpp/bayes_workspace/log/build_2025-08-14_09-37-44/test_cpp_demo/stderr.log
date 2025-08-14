@@ -1,0 +1,5 @@
+[0m/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo[0m
+[01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/WriteNode.cpp:[m[K In member function ‘[01m[Kvirtual void WriteNode::eatfood(std::string)[m[K’:
+[01m[K/home/bayes/hssw/others/ros2project/test/cpp/bayes_workspace/src/test_cpp_demo/src/WriteNode.cpp:10:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfoodname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   10 |     virtual void eatfood([01;35m[Kstring foodname[m[K)
+      |                          [01;35m[K~~~~~~~^~~~~~~~[m[K

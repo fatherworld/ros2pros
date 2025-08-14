@@ -1,0 +1,151 @@
+[0.247s] DEBUG:colcon:Command line arguments: ['/bin/colcon', 'build', '--packages-select', 'status_display']
+[0.247s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['status_display'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78ec7596e110>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78ec7596dcc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78ec7596dcc0>>)
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.771s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(status_display) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(status_display) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(status_display) by extension 'ignore_ament_install'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(status_display) by extensions ['colcon_pkg']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(status_display) by extension 'colcon_pkg'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(status_display) by extensions ['colcon_meta']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(status_display) by extension 'colcon_meta'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(status_display) by extensions ['ros']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(status_display) by extension 'ros'
+[0.812s] DEBUG:colcon.colcon_core.package_identification:Package 'status_display' with type 'ros.ament_cmake' and name 'status_display'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(status_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(status_interfaces) by extension 'ignore'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(status_interfaces) by extension 'ignore_ament_install'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(status_interfaces) by extensions ['colcon_pkg']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(status_interfaces) by extension 'colcon_pkg'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(status_interfaces) by extensions ['colcon_meta']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(status_interfaces) by extension 'colcon_meta'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(status_interfaces) by extensions ['ros']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(status_interfaces) by extension 'ros'
+[0.816s] DEBUG:colcon.colcon_core.package_identification:Package 'status_interfaces' with type 'ros.ament_cmake' and name 'status_interfaces'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(status_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(status_publisher) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(status_publisher) by extension 'ignore_ament_install'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(status_publisher) by extensions ['colcon_pkg']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(status_publisher) by extension 'colcon_pkg'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(status_publisher) by extensions ['colcon_meta']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(status_publisher) by extension 'colcon_meta'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(status_publisher) by extensions ['ros']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(status_publisher) by extension 'ros'
+[0.819s] DEBUG:colcon.colcon_core.package_identification:Package 'status_publisher' with type 'ros.ament_python' and name 'status_publisher'
+[0.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.854s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'status_interfaces' in 'status_interfaces'
+[0.854s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'status_publisher' in 'status_publisher'
+[0.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.861s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install
+[0.864s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_args' from command line to 'None'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_target' from command line to 'None'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_clean_cache' from command line to 'False'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_clean_first' from command line to 'False'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_force_configure' from command line to 'False'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'ament_cmake_args' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'catkin_cmake_args' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.992s] DEBUG:colcon.colcon_core.verb:Building package 'status_display' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_display', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display', 'merge_install': False, 'path': '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display', 'symlink_install': False, 'test_result_base': None}
+[0.992s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.993s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.994s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display' with build type 'ament_cmake'
+[0.994s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display'
+[1.004s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.004s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.004s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_publisher:/opt/ros/humble /bin/cmake /home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display
+[3.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_publisher:/opt/ros/humble /bin/cmake /home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display
+[3.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_publisher:/opt/ros/humble /bin/cmake --build /home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_display -- -j24 -l24
+[5.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_publisher:/opt/ros/humble /bin/cmake --build /home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_display -- -j24 -l24
+[5.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_publisher:/opt/ros/humble /bin/cmake --install /home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_display
+[5.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_display)
+[5.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_publisher:/opt/ros/humble /bin/cmake --install /home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/build/status_display
+[5.849s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display' for CMake module files
+[5.850s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display' for CMake config files
+[5.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_display', 'cmake_prefix_path')
+[5.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/hook/cmake_prefix_path.ps1'
+[5.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/hook/cmake_prefix_path.dsv'
+[5.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/hook/cmake_prefix_path.sh'
+[5.855s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/lib'
+[5.855s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/bin'
+[5.855s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/lib/pkgconfig/status_display.pc'
+[5.855s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/lib/python3.10/site-packages'
+[5.856s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/bin'
+[5.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/package.ps1'
+[5.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/package.dsv'
+[5.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/package.sh'
+[5.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/package.bash'
+[5.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/package.zsh'
+[5.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/colcon-core/packages/status_display)
+[5.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_display)
+[5.864s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display' for CMake module files
+[5.865s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display' for CMake config files
+[5.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_display', 'cmake_prefix_path')
+[5.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/hook/cmake_prefix_path.ps1'
+[5.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/hook/cmake_prefix_path.dsv'
+[5.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/hook/cmake_prefix_path.sh'
+[5.869s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/lib'
+[5.869s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/bin'
+[5.869s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/lib/pkgconfig/status_display.pc'
+[5.870s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/lib/python3.10/site-packages'
+[5.870s] Level 1:colcon.colcon_core.environment:checking '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/bin'
+[5.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/package.ps1'
+[5.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/package.dsv'
+[5.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/package.sh'
+[5.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/package.bash'
+[5.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/status_display/package.zsh'
+[5.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/status_display/share/colcon-core/packages/status_display)
+[5.875s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.876s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.876s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.876s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.891s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.891s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.891s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.913s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.914s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/local_setup.ps1'
+[5.916s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/_local_setup_util_ps1.py'
+[5.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/setup.ps1'
+[5.920s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/local_setup.sh'
+[5.922s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/_local_setup_util_sh.py'
+[5.923s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/setup.sh'
+[5.925s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/local_setup.bash'
+[5.926s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/setup.bash'
+[5.928s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/local_setup.zsh'
+[5.929s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/install/setup.zsh'

@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target PersonNode[0m
+[35m[1mConsolidate compiler generated dependencies of target WriteNode[0m
+[ 33%] Built target bayes_test
+[ 50%] [32mBuilding CXX object CMakeFiles/PersonNode.dir/src/PersonNode.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/WriteNode.dir/src/WriteNode.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable WriteNode[0m
+[100%] [32m[1mLinking CXX executable PersonNode[0m
+[100%] Built target PersonNode

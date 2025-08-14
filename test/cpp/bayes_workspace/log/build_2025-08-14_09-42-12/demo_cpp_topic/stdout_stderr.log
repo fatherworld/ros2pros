@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[ 50%] Built target turtle_circle
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_control[0m
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:191：turtle_control] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/turtle_control.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

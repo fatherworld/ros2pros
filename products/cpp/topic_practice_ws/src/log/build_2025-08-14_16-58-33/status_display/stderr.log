@@ -1,0 +1,64 @@
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:10:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Knodename[m[K’
+   10 |     StatusDisplay[34m[K([m[Kstring[01;31m[K [m[K[32m[Knodename[m[K):rclcpp::Node(nodename)
+      |                  [34m[K~[m[K      [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+      |                         [32m[K)[m[K
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:[m[K In member function ‘[01m[KQString StatusDisplay::get_qstr_form_msg(status_interfaces::msg::SystemStatus_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:26:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   26 |             [01;31m[K<<[m[K "用户名：\t" <<msg->hostname <<"\ts\n";
+      |             [01;31m[K^~[m[K
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:27:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   27 |             [01;31m[K<<[m[K "cpu使用率：\t" <<msg->cpu_percent <<"\ts\n";
+      |             [01;31m[K^~[m[K
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:28:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   28 |             [01;31m[K<<[m[K "内存使用率：\t" <<msg->memory_percent<<"\ts\n";
+      |             [01;31m[K^~[m[K
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:29:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   29 |             [01;31m[K<<[m[K "内存总大小：\t" <<msg->memory_total <<"\ts\n";
+      |             [01;31m[K^~[m[K
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:30:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   30 |             [01;31m[K<<[m[K "剩余有效内存：\t" <<msg->memory_avaliable<<"\ts\n";
+      |             [01;31m[K^~[m[K
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:31:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   31 |             [01;31m[K<<[m[K "网络发送量:\t" <<msg->net_sent <<"\ts\n";
+      |             [01;31m[K^~[m[K
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:32:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   32 |             [01;31m[K<<[m[K "网络接受量：\t" <<msg->net_recv<<"\ts\n";
+      |             [01;31m[K^~[m[K
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:33:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   33 |             [01;31m[K<<[m[K "=================================================== \n";
+      |             [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/unordered_map:40[m[K,
+                 from [01m[K/usr/include/c++/11/functional:61[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:1[m[K,
+                 from [01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = StatusDisplay; _Args = {const char (&)[14]}; _Tp = StatusDisplay][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = StatusDisplay; _Args = {const char (&)[14]}; _Tp = StatusDisplay; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<StatusDisplay>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[14]}; _Tp = StatusDisplay; _Alloc = std::allocator<StatusDisplay>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = StatusDisplay; _Alloc = std::allocator<StatusDisplay>; _Args = {const char (&)[14]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<StatusDisplay>; _Args = {const char (&)[14]}; _Tp = StatusDisplay; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<StatusDisplay>; _Args = {const char (&)[14]}; _Tp = StatusDisplay][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = StatusDisplay; _Alloc = std::allocator<StatusDisplay>; _Args = {const char (&)[14]}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = StatusDisplay; _Args = {const char (&)[14]}][m[K’
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:47:48:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KStatusDisplay::StatusDisplay(const char [14])[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:7:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KStatusDisplay::StatusDisplay()[m[K’ (deleted)
+    7 | class [01;36m[KStatusDisplay[m[K:public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:7:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:7:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KStatusDisplay::StatusDisplay(const StatusDisplay&)[m[K’ (deleted)
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:7:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [14][m[K’ to ‘[01m[Kconst StatusDisplay&[m[K’
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:7:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KStatusDisplay::StatusDisplay(StatusDisplay&&)[m[K’ (deleted)
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:7:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [14][m[K’ to ‘[01m[KStatusDisplay&&[m[K’
+gmake[2]: *** [CMakeFiles/StatusDisplay.dir/build.make:76：CMakeFiles/StatusDisplay.dir/src/sys_status_display.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/StatusDisplay.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,3 @@
+[console_scripts]
+status_publisher = status_publisher.sys_status:main
+

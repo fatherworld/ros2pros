@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target StatusDisplay[0m
+[ 50%] Built target hello_qt
+[ 75%] [32mBuilding CXX object CMakeFiles/StatusDisplay.dir/src/sys_status_display.cpp.o[0m
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:[m[K In constructor ‘[01m[KStatusDisplay::StatusDisplay(std::string)[m[K’:
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:17:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQLabel::QLabel(<unresolved overloaded function type>)[m[K’
+   17 |         label_ = new QLabel(std::make_shared<SystemStatus>[01;31m[K)[m[K;
+      |                                                           [01;31m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:1[m[K,
+                 from [01m[K/home/bayes/hssw/others/ros2project/products/cpp/topic_practice_ws/src/status_display/src/sys_status_display.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:71:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQLabel::QLabel(const QString&, QWidget*, Qt::WindowFlags)[m[K’
+   71 |     explicit [01;36m[KQLabel[m[K(const QString &text, QWidget *parent=nullptr, Qt::WindowFlags f=Qt::WindowFlags());
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:71:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kconst QString&[m[K’
+   71 |     explicit QLabel([01;36m[Kconst QString &text[m[K, QWidget *parent=nullptr, Qt::WindowFlags f=Qt::WindowFlags());
+      |                     [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:70:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQLabel::QLabel(QWidget*, Qt::WindowFlags)[m[K’
+   70 |     explicit [01;36m[KQLabel[m[K(QWidget *parent=nullptr, Qt::WindowFlags f=Qt::WindowFlags());
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:70:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[KQWidget*[m[K’
+   70 |     explicit QLabel([01;36m[KQWidget *parent=nullptr[m[K, Qt::WindowFlags f=Qt::WindowFlags());
+      |                     [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/StatusDisplay.dir/build.make:76：CMakeFiles/StatusDisplay.dir/src/sys_status_display.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/StatusDisplay.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
