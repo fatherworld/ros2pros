@@ -1,0 +1,18 @@
+[0.018s] Invoking command in '/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/build/demo_cpp_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/build/demo_cpp_service -- -j24 -l24
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[2.018s] [01m[K/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/demo_cpp_service/src/turtle_control.cpp:[m[K In lambda function:
+[2.018s] [01m[K/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/demo_cpp_service/src/turtle_control.cpp:20:105:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct chapt4_interfaces::srv::Patrol_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct chapt4_interfaces::srv::Patrol_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktarget_[m[K’; did you mean ‘[01m[Ktarget_x[m[K’?
+[2.018s]    20 |                 if(0 > request->target_x || 0>request->target_y || request->target_x>12.0f  || request->[01;31m[Ktarget_[m[K y >12.0f )
+[2.018s]       |                                                                                                         [01;31m[K^~~~~~~[m[K
+[2.018s]       |                                                                                                         [32m[Ktarget_x[m[K
+[2.019s] [01m[K/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/demo_cpp_service/src/turtle_control.cpp:20:113:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Ky[m[K’
+[2.019s]    20 |                 if(0 > request->target_x || 0>request->target_y || request->target_x>12.0f  || request->target_ [01;31m[Ky[m[K >12.0f )
+[2.019s]       |                                                                                                                 [01;31m[K^[m[K
+[2.019s] [01m[K/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/demo_cpp_service/src/turtle_control.cpp:20:19:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.019s]    20 |                 if[01;36m[K([m[K0 > request->target_x || 0>request->target_y || request->target_x>12.0f  || request->target_ y >12.0f )
+[2.019s]       |                   [01;36m[K^[m[K
+[4.042s] gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+[4.042s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/turtle_control.dir/all] 错误 2
+[4.042s] gmake: *** [Makefile:146：all] 错误 2
+[4.045s] Invoked command in '/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/build/demo_cpp_service' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/build/demo_cpp_service -- -j24 -l24

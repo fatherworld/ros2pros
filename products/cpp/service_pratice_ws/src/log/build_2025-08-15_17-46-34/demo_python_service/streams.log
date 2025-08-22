@@ -1,0 +1,23 @@
+[0.673s] Invoking command in '/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/demo_python_service': CMAKE_PREFIX_PATH=/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/install/chapt4_interfaces:/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/install/demo_cpp_service PYTHONPATH=/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_service build --build-base /home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/build/demo_python_service/build install --record /home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.906s] running egg_info
+[0.907s] writing ../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.907s] writing dependency_links to ../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.907s] writing entry points to ../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.907s] writing requirements to ../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.908s] writing top-level names to ../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.909s] reading manifest file '../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.910s] adding license file 'LICENSE'
+[0.910s] writing manifest file '../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.910s] running build
+[0.910s] running build_py
+[0.911s] running install
+[0.911s] running install_lib
+[0.913s] running install_data
+[0.913s] running install_egg_info
+[0.915s] removing '/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.915s] Copying ../build/demo_python_service/demo_python_service.egg-info to /home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[0.916s] running install_scripts
+[0.934s] Installing face_detect_client_node script to /home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/install/demo_python_service/lib/demo_python_service
+[0.934s] Installing face_detect_service_node script to /home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/install/demo_python_service/lib/demo_python_service
+[0.934s] writing list of installed files to '/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/build/demo_python_service/install.log'
+[0.956s] Invoked command in '/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/demo_python_service' returned '0': CMAKE_PREFIX_PATH=/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/install/chapt4_interfaces:/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/install/demo_cpp_service PYTHONPATH=/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_service build --build-base /home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/build/demo_python_service/build install --record /home/bayes/hssw/others/ros2project/products/cpp/service_pratice_ws/src/build/demo_python_service/install.log --single-version-externally-managed install_data
