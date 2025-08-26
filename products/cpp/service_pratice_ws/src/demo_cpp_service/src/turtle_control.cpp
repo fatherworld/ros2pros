@@ -2,15 +2,23 @@
 #include"rclcpp/rclcpp.hpp"
 #include "turtlesim/msg/pose.hpp"
 #include "geometry_msgs/msg/twist.hpp"
+#include "rcl_interfaces/msg/set_parameters_result.hpp"
 #include <string>
 #include <unistd.h>
 using namespace chapt4_interfaces::srv;
 using namespace std;
+using SetParametersResult = rcl_interfaces::msg::SetParametersResult;
 class TurtleContorller:public rclcpp::Node
 {
 public:
    TurtleContorller(string nodename):rclcpp::Node(nodename)
     {
+        //声明和初始化参数
+        this->declare_parameter("k",1.0);
+        this->declare_parameter("max_speed",1.0); 
+        this->get_parameter("k",k_);
+        this->get_parameter("max_speed",max_speed);
+        
         velocity_pub = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel",10);
         velocity_sub = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose",10,std::bind(&TurtleContorller::on_pose_received,this,std::placeholders::_1));
         //创建服务
@@ -29,6 +37,30 @@ public:
                 }
             }
         );
+
+
+        //添加参数设置回调
+        parameters_callback_handle_ = this->add_on_set_parameters_callback(
+            [&](const std::vector<rclcpp::Parameter> & params) -> SetParametersResult{
+
+                //遍历参数
+                for(auto param:params)
+                {
+                    RCLCPP_INFO(this->get_logger(),"更新参数 %s 值为 ：%f",param.get_name().c_str(),param.as_double());
+                    if(param.get_name()=="k")
+                    {
+                        k_ = param.as_double();
+                    }
+                    else if(param.get_name()=="max_speed")
+                    {
+                        max_speed = param.as_double(); 
+                    }
+                }
+                auto result = SetParametersResult();
+                result.successful = true;
+                return result;
+            }
+        );
     }
 public:
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr velocity_pub;
@@ -44,7 +76,8 @@ public:
         double dis = std::sqrt((target_x-current_x)*(target_x-current_x) + (target_y-current_y)*(target_y-current_y));
         double angle = std::atan2(target_y-current_y,target_x-current_x) - pose->theta;
 
-        std::cout<<"dis:"<<dis<<"-------"<<"angle:"<<angle<<std::endl;
+        RCLCPP_INFO(this->get_logger(),"参数k: %f, 参数max_speed ：%f",k_,max_speed);
+        //std::cout<<"dis:"<<dis<<"-------"<<"angle:"<<angle<<std::endl;
         
         if(dis > 0.1)
         {
@@ -78,6 +111,8 @@ private:
 
 private:
     rclcpp::Service<Patrol>::SharedPtr patrol_ser;
+
+    OnSetParametersCallbackHandle::SharedPtr parameters_callback_handle_;
 };
 
 /*

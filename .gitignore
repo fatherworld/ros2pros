@@ -1,2 +1,27 @@
 projects/
 test/
+products/cpp/service_pratice_ws/src/log/
+
+# JSON files
+**/*.json
+
+# Environment files
+**/*.env
+
+# Shared object files
+**/*.so
+
+# Object files
+**/*.o
+*.c.o
+
+# Python compiled files
+**/*.pyc
+
+# CMake files and directories
+**/.cmake/
+**/CMakeFile/
+
+# Build directories
+**/build/
+build/

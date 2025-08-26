@@ -18,3 +18,12 @@ bool,char,byte,float32,float64,int8,uint8,int16,uint16,int32,uint32,int64,uint64
 
 rqt查看ros2服务，plugin-->Serives
 rqt查看ros参数，plugin-->Configuaration
+
+使用luanch启动脚本：
+    海龟巡逻的例子中，如果想通过节点patrol_client给节点turtle_control发送接口和参数,还需要启动节点turtlesim_node，每个节点都需要单独的终端和命令，
+    每次启动都需要花上一点时间，launch就是ros2中用于启动和管理ROS2节点和进程的工具，使用它可以简化节点的启动和配置，可以启动多个节点
+
+launch脚本的三个大的功能是：动作，替换，条件
+
+
+
