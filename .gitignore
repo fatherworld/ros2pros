@@ -25,3 +25,5 @@ products/cpp/service_pratice_ws/src/log/
 # Build directories
 **/build/
 build/
+
+**/install/
