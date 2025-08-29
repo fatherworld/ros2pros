@@ -1,0 +1,7 @@
+[01m[K/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/demo_cpp_tf/src/static_tf_broadcaster.cpp:38:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   38 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/static_tf_broadcaster.dir/build.make:76：CMakeFiles/static_tf_broadcaster.dir/src/static_tf_broadcaster.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/static_tf_broadcaster.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

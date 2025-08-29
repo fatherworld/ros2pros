@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --build /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf -- -j24 -l24
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target static_tf_broadcaster[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/static_tf_broadcaster.dir/src/static_tf_broadcaster.cpp.o[0m
+[2.982s] [100%] [32m[1mLinking CXX executable static_tf_broadcaster[0m
+[3.151s] [100%] Built target static_tf_broadcaster
+[3.160s] Invoked command in '/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --build /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf -- -j24 -l24
+[3.168s] Invoking command in '/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --install /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf
+[3.174s] -- Install configuration: ""
+[3.174s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster
+[3.175s] -- Set runtime path of "/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster" to ""
+[3.175s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf
+[3.176s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf
+[3.176s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.sh
+[3.176s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.dsv
+[3.176s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.sh
+[3.176s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.dsv
+[3.177s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.bash
+[3.177s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.sh
+[3.177s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.zsh
+[3.177s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.dsv
+[3.177s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv
+[3.177s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/ament_index/resource_index/packages/demo_cpp_tf
+[3.177s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig.cmake
+[3.177s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig-version.cmake
+[3.178s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.xml
+[3.179s] Invoked command in '/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --install /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf

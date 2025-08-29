@@ -1,0 +1,88 @@
+[0.014s] Invoking command in '/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/src/install/demo_python_tf:/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/src/demo_cpp_tf2 -DCMAKE_INSTALL_PREFIX=/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.127s] -- The CXX compiler identification is GNU 11.4.0
+[0.135s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.196s] -- Detecting C compile features - done
+[0.198s] -- Detecting CXX compiler ABI info
+[0.264s] -- Detecting CXX compiler ABI info - done
+[0.268s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.269s] -- Detecting CXX compile features - done
+[0.271s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.382s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.443s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.472s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.475s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.480s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.529s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.530s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.596s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.614s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.642s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.647s] -- Looking for pthread.h
+[0.708s] -- Looking for pthread.h - found
+[0.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.769s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.770s] -- Found Threads: TRUE  
+[0.803s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[0.817s] -- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.876s] -- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.883s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.884s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.885s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.888s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.942s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.942s] -- Configured cppcheck include dirs: 
+[0.942s] -- Configured cppcheck exclude dirs and/or files: 
+[0.942s] -- Added test 'lint_cmake' to check CMake code style
+[0.943s] -- Added test 'uncrustify' to check C / C++ code style
+[0.943s] -- Configured uncrustify additional arguments: 
+[0.944s] -- Added test 'xmllint' to check XML markup files
+[0.945s] -- Configuring done
+[0.962s] -- Generating done
+[0.968s] -- Build files have been written to: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf2
+[0.976s] Invoked command in '/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/src/install/demo_python_tf:/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/src/demo_cpp_tf2 -DCMAKE_INSTALL_PREFIX=/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2
+[0.978s] Invoking command in '/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/src/install/demo_python_tf:/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --build /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf2 -- -j24 -l24
+[1.020s] [ 16%] [32mBuilding CXX object CMakeFiles/tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o[0m
+[1.021s] [ 33%] [32mBuilding CXX object CMakeFiles/static_tf_broadcaster.dir/src/static_tf_broadcaster.cpp.o[0m
+[1.022s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o[0m
+[1.263s] In file included from [01m[K/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/src/demo_cpp_tf2/src/tf_listener.cpp:11[m[K:
+[1.264s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.264s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.264s]       |  [01;35m[K^~~~~~~[m[K
+[3.489s] [ 66%] [32m[1mLinking CXX executable tf_listener[0m
+[3.602s] [ 66%] Built target tf_listener
+[3.888s] [ 83%] [32m[1mLinking CXX executable static_tf_broadcaster[0m
+[3.966s] [100%] [32m[1mLinking CXX executable tf_broadcaster[0m
+[4.045s] [100%] Built target static_tf_broadcaster
+[4.118s] [100%] Built target tf_broadcaster
+[4.127s] Invoked command in '/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/src/install/demo_python_tf:/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --build /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf2 -- -j24 -l24
+[4.135s] Invoking command in '/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/src/install/demo_python_tf:/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --install /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf2
+[4.140s] -- Install configuration: ""
+[4.140s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/lib/demo_cpp_tf2/static_tf_broadcaster
+[4.141s] -- Set runtime path of "/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/lib/demo_cpp_tf2/static_tf_broadcaster" to ""
+[4.141s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/lib/demo_cpp_tf2/tf_broadcaster
+[4.142s] -- Set runtime path of "/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/lib/demo_cpp_tf2/tf_broadcaster" to ""
+[4.142s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/lib/demo_cpp_tf2/tf_listener
+[4.143s] -- Set runtime path of "/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/lib/demo_cpp_tf2/tf_listener" to ""
+[4.143s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf2
+[4.143s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf2
+[4.144s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/demo_cpp_tf2/environment/ament_prefix_path.sh
+[4.144s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/demo_cpp_tf2/environment/ament_prefix_path.dsv
+[4.144s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/demo_cpp_tf2/environment/path.sh
+[4.144s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/demo_cpp_tf2/environment/path.dsv
+[4.144s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/demo_cpp_tf2/local_setup.bash
+[4.145s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/demo_cpp_tf2/local_setup.sh
+[4.145s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/demo_cpp_tf2/local_setup.zsh
+[4.145s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/demo_cpp_tf2/local_setup.dsv
+[4.145s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/demo_cpp_tf2/package.dsv
+[4.145s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/ament_index/resource_index/packages/demo_cpp_tf2
+[4.145s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/demo_cpp_tf2/cmake/demo_cpp_tf2Config.cmake
+[4.145s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/demo_cpp_tf2/cmake/demo_cpp_tf2Config-version.cmake
+[4.146s] -- Installing: /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_cpp_tf2/share/demo_cpp_tf2/package.xml
+[4.146s] Invoked command in '/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/src/install/demo_python_tf:/home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --install /home/bayes/hssw/others/ros2project/products/cpp/tf_pratice_ws/build/demo_cpp_tf2
