@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+<!--声明驱动轮模块-->
+<xacro:macro name="caster_xacro" params="caster_name xyz">
+    <link name="${caster_name}_caster_link">
+    <!--驱动轮子的身体部分-->
+    <visual>
+        <!--沿自己几何中心的偏移和旋转量-->
+        <origin xyz="0 0 0" rpy="0 0 0"/> <!--轮子默认是躺平状 -->
+        <!--驱动轮子身体的几何形状-->
+        <geometry>
+            <!--球体-->
+             <sphere radius="0.016"/>
+        </geometry>
+        <!--机器人的材质-->
+        <material name="yellow">
+            <color rgba="1.0 1.0 0.0 0.8"/>
+        </material>
+    </visual>
+    <collision> 
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+            <sphere radius="0.016"/>
+        </geometry>
+        <material name="yellow">
+            <color rgba="1.0 1.0 0.0 0.8"/>
+        </material>
+    </collision>
+    <xacro:sphere_inertia m="0.1" r="0.016" />
+</link>
+
+<!--万向轮关节-->
+    <joint name="${caster_name}_caster_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="${caster_name}_caster_link"/>
+        <!--子部件相对于父部件的平移和旋转-->
+        <origin xyz="${xyz}"/>
+        <axis xyz="0 0 0" /> <!--表示的是 绕y轴方向旋转，也就是y的线速度走-->
+    </joint>
+
+</xacro:macro>
+</robot>
