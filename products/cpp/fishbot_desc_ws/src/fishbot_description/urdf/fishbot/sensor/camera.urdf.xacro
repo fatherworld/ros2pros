@@ -2,6 +2,11 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 <!--声明base模块-->
 <xacro:macro name="camera_xacro" params="xyz">
+
+    <gazebo reference="camera_link">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
     <link name="camera_link">
     <!--机器人的身体部分-->
     <visual>

@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 <xacro:macro name="imu_xacro" params="xyz">
+
+    <gazebo reference="imu_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
     <link name="imu_link">
     <!--imu惯性传感器的身体部分-->
     <visual>
