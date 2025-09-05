@@ -72,5 +72,6 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/bayes/hssw/others/ros2project/projects/demo_cpp_pkg"
 }

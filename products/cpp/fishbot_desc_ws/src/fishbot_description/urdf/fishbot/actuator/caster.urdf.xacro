@@ -4,6 +4,10 @@
 <xacro:macro name="caster_xacro" params="caster_name xyz">
     <gazebo reference="${caster_name}_caster_link">
         <material>Gazebo/Yellow</material>
+         <mu1 value="0.0" /> <!--切向摩擦系数-->
+        <mu2 value="0.0" /> <!--法向摩擦系数-->
+        <kp value="100000000000.0" />  <!--刚度系数，抵抗压力形变的抗击程度-->
+        <kd value="1" />    <!--阻尼系数，运动中消耗的能量-->
     </gazebo>
     <link name="${caster_name}_caster_link">
     <!--驱动轮子的身体部分-->
